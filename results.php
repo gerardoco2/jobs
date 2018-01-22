@@ -48,7 +48,7 @@ $jobs_arr = 0;
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Justified Nav Template for Bootstrap</title>
+    <title>Gerardo Colina</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.css" rel="stylesheet">
