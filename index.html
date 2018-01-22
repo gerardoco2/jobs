@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Justified Nav Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+    <style>
+     
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="justified-nav.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <header class="masthead">
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav text-md-center nav-justified w-100">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Empleos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recomendaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Transporte</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hospedaje</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nosotros</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+
+      <main role="main">
+
+        <!-- Jumbotron -->
+        <div class="jumbotron">
+          <h1>Encuentra Tu Proximo Empleo Aqui!</h1>
+          <p class="lead">  Millones de empresas publican ofertas de trabajo con nosotros en toda america latina.</p>
+          <form class="form-inline" action="results.php" method="POST">
+
+            <div class="form-group" style="margin: 0 auto;">
+              <label class="sr-only" for="inlineFormInput">Empleo</label>
+              <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" name="empleo" placeholder="Coloca el empleo que buscas aqui." required >
+               
+
+               <label class="sr-only" for="inlineFormInput">pais</label>
+              
+              <select class="form-control form-control-md" name="pais" required >
+                <option>Selecciona el pais </option>
+
+                <option value="de">Alemania</option>
+                <option value="ar">Argentina</option>
+                <option value="au">Australia</option>
+                <option value="at">Austria</option>
+                <option value="be">Belgica</option>
+                <option value="br">Brazil</option>
+                <option value="ca">Canada</option>
+                <option value="cl">Chile</option>
+                <option value="cn">China</option>
+                <option value="co">Colombia</option>
+                <option value="cr">Costa Rica </option>
+                <option value="dk">Dinamarca</option>
+                <option value="ec">Ecuador</option>
+                <option value="ae">Emiratos Arabes Unidos</option>
+                <option value="es">España</option>
+                <option value="us">Estados Unidos</option>
+                <option value="fr">Francia</option>
+                <option value="it">Italia</option>
+                <option value="jp">Japon</option>
+                <option value="mx">Mexico</option>
+                <option value="pa">Panama</option>
+                <option value="pe">Perú</option>
+                <option value="pt">Portugal</option>
+                <option value="uk">Reino Unido</option>
+                <option value="ru">Russia</option>
+                <option value="uy">Uruguay</option>
+                <option value="ve">Venezuela</option>
+
+              </select>
+
+
+              <input type="submit" class="btn btn-sm btn-success clearfix" role="button"  value="Buscar Trabajos">
+
+            </div>
+           
+          </form>
+          <small id="passwordHelpBlock" class="form-text text-muted">
+           Ejemplo: Electricista, programador, ingeniero civil...
+          </small>
+          
+        </div>
+
+
+
+      </main>
+
+      <!-- Site footer -->
+      <footer class="footer">
+        <p>&copy; Company 2017</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
